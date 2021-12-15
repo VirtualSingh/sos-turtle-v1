@@ -1,0 +1,2 @@
+"use strict";var digits=document.querySelectorAll(".digit");digits.forEach((function(t){t.innerText="0",function e(){var i=Number(t.getAttribute("data-target")),n=Number(t.innerText),r=i/1e3;n<i?(t.innerText="".concat(Math.ceil(n+r)),setTimeout(e,1)):t.innerText=i}()}));
+//# sourceMappingURL=main.js.map
